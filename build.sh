@@ -3,10 +3,12 @@
 # exit on error
 set -o errexit
 
-python -m venv venv
+python3 -m venv venv
 
 source venv/bin/activate
 
+python3 -m pip install --upgrade pip
+
 pip install -r requirements.txt 
 
-py manage.py migrate
+python3 manage.py migrate
