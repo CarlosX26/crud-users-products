@@ -4,10 +4,11 @@ from django.db import models
 class Product(models.Model):
 
     img_url = models.URLField()
-    name = models.CharField(max_length=128)
+    name = models.CharField(max_length=128, unique=True)
+    description = models.TextField(null=True)
     price = models.DecimalField(max_digits=9, decimal_places=2)
     is_active = models.BooleanField(default=True)
-    stock = models.PositiveIntegerField(default=1)
+    stock = models.PositiveIntegerField()
 
     user = models.ForeignKey(
         "users.User",
