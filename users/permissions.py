@@ -13,6 +13,12 @@ class IsSuperUserOrReadOnly(permissions.BasePermission):
         if request.method in permissions.SAFE_METHODS:
             return True
 
-        return (
-            request.user and request.user.is_authenticated and request.user.is_superuser
-        )
+        return request.user.is_authenticated and request.user.is_superuser
+
+
+class IsSuperUserToRead(permissions.BasePermission):
+    def has_permission(self, request: Request, view: View) -> bool:
+        if request.method not in permissions.SAFE_METHODS:
+            return True
+
+        return request.user.is_authenticated and request.user.is_superuser
