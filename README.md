@@ -39,7 +39,10 @@ A partir disso, prossiga com os passos:
 ```bash
   pip install -r requirements.txt 
 ```
-
+4 - rodando migrações:
+```bash
+  python manage.py migrate
+```
 
 
 
