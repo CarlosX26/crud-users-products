@@ -185,6 +185,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "users.User"
 
 CORS_ALLOWED_ORIGINS = [
-    # "http://localhost:4200",
-    # "https://fast-busines.netlify.app/"
+    "http://localhost:4200",
+    "https://fast-busines.netlify.app/"
 ]
