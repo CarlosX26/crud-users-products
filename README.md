@@ -1,7 +1,7 @@
 
 # FAST BUSINES
 
-um crud de usúarios e produtos onde você expor sua vitrine de produtos.
+Este é um aplicativo back-end desenvolvido em Python e Django que oferece um CRUD de usuários e produtos. Ele permite a exposição de uma vitrine de produtos aos clientes e oferece aos administradores a capacidade de gerenciar o estoque de produtos. Com esta aplicação, é possível realizar todas as operações básicas de um CRUD, incluindo criar, ler, atualizar e excluir usuários e produtos.
 
 
 
@@ -48,8 +48,8 @@ A partir disso, prossiga com os passos:
 
 ## Stack utilizada
 
-**Back-end:** Python, Django, DjangoRestFramework e sqlite.
+**Back-end:** Python, Django, DjangoRestFramework e PostgreSQL.
 
 
 ## link para documentação
-http://localhost:8000/api/docs/
+https://fast-busines.onrender.com/api/docs/
