@@ -11,13 +11,13 @@ Este é um aplicativo back-end desenvolvido em Python e Django que oferece um CR
 Clone o projeto
 
 ```bash
-  git clone git@github.com:CarlosX26/crud-users-products.git
+  git clone git@github.com:CarlosX26/fast-busines-back-end.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd crud-users-products
+  cd fast-busines-back-end
 ```
 
 A partir disso, prossiga com os passos:
